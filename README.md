@@ -1,5 +1,7 @@
 # The gem5 Simulator
 
+Please see README-SPACE-CONTROL.md for the Space-Control stuff.
+
 This is the repository for the gem5 simulator. It contains the full source code
 for the simulator and all tests and regressions.
 

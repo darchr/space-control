@@ -3,7 +3,9 @@
 This document lists down the steps to reproduce each Space-Control experiment from the paper.
 The paper can be found [here](https://arch.cs.ucdavis.edu/security/memory/cxl/2026/03/06/space-control.html).
 
-## Creating the Disk Image
+## Creating resources
+
+### Disk Image
 
 This repository uses a modified version of GAPBS that allows graphs to be shared across multiple gem5 hosts.
 ```sh
@@ -16,7 +18,7 @@ cd shared-gapbs
 # artifacts will be created in the disk-images folder
 ```
 
-## Compiling the kernel
+### Kernel
 
 The specific kernel used in Space-Control
 
@@ -30,6 +32,14 @@ cd linux
 git checkout v6.9.9 # maybe
 cp ../linux-configs/config.x86.6.9.9 .config
 make -j`nproc`
+```
+
+Make sure to replace the local paths to these resources in the joblist JSONs from `disaggregated_memory/joblist/space-control/*.json`.
+```json
+..
+            "disk": "<path/to/gem5-resources/src/shared-gapbs/x86-disk-image-24-04/x86-ubuntu>",
+            "kernel": "<path/to/gem5-resources/src/kernels/linux/vmlinux>",
+..
 ```
 
 ## Generating Baseline
