@@ -5,13 +5,13 @@
             "experiment": "space-control-allocator",
             "checkpoint": "",
             "maxtics": "",
-            "max-time": "2s",
+            "max-time": "1s",
             "parallel-eff": "",
             "permission": "space-control",
             "permission-cache": "false",
             "permission-cache-entries": "0",
-            "binary-search": "false",
-            "number-of-entries": "1"
+            "binary-search": "true",
+            "number-of-entries": "0"
         },
         "cpu": {
             "ff-core": "kvm",

@@ -5,7 +5,7 @@
             "experiment": "space-control-allocator-bc",
             "checkpoint": "",
             "maxtics": "",
-            "max-time": "250ms",
+            "max-time": "1s",
             "parallel-eff": "",
             "permission": "space-control",
             "permission-cache": "false",

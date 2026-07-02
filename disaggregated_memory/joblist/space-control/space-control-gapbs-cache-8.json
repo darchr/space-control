@@ -2,14 +2,14 @@
     "0": {
         "metadata": {
             "comment": "This is a host allocates the graph in shared memory.",
-            "experiment": "mondi-allocator",
+            "experiment": "space-control-allocator",
             "checkpoint": "",
             "maxtics": "",
             "max-time": "1s",
             "parallel-eff": "",
-            "permission": "mondrian",
-            "permission-cache": "false",
-            "permission-cache-entries": "0",
+            "permission": "space-control",
+            "permission-cache": "true",
+            "permission-cache-entries": "512",
             "binary-search": "true",
             "number-of-entries": "0"
         },
@@ -52,7 +52,7 @@
     "1": {
         "metadata": {
             "comment": "This is a host runs bfs",
-            "experiment": "mondi-bfs",
+            "experiment": "space-control-bfs",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""
@@ -97,7 +97,7 @@
     "2": {
         "metadata": {
             "comment": "This is a host runs bc",
-            "experiment": "mondi-bc",
+            "experiment": "space-control-bc",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""
@@ -142,7 +142,7 @@
     "3": {
         "metadata": {
             "comment": "This is a host runs cc",
-            "experiment": "mondi-cc",
+            "experiment": "space-control-cc",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""
@@ -187,7 +187,7 @@
     "4": {
         "metadata": {
             "comment": "This is a host runs cc_sv",
-            "experiment": "mondi-cc_sv",
+            "experiment": "space-control-cc_sv",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""
@@ -232,7 +232,7 @@
     "5": {
         "metadata": {
             "comment": "This is a host runs pr",
-            "experiment": "mondi-pr",
+            "experiment": "space-control-pr",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""
@@ -277,7 +277,7 @@
     "6": {
         "metadata": {
             "comment": "This is a host runs tc",
-            "experiment": "mondi-tc",
+            "experiment": "space-control-tc",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""
@@ -322,7 +322,7 @@
     "7": {
         "metadata": {
             "comment": "This is a host runs nothing",
-            "experiment": "mondi",
+            "experiment": "space-control",
             "checkpoint": "",
             "maxtics": "",
             "parallel-eff": ""

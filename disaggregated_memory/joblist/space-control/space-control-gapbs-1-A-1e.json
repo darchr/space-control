@@ -1,11 +1,11 @@
 {
     "0": {
         "metadata": {
-            "comment": "This experiment simulates no cache 1e bfs",
+            "comment": "This experiment simulates no cache 1e bfs. Results are used in the scalability numbers in the paper.",
             "experiment": "space-control-allocator-bfs",
             "checkpoint": "",
             "maxtics": "",
-            "max-time": "250ms",
+            "max-time": "1s",
             "parallel-eff": "",
             "permission": "space-control",
             "permission-cache": "false",
